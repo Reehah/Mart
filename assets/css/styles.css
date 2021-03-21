@@ -481,7 +481,25 @@ textarea::placeholder {
   padding-top: 50px;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (min-width:2560px){
+  .about__us{
+    justify-content: space-evenly;
+ }
+ 
+  .our__service{
+    justify-content:space-evenly
+  }
+
+  .blog{
+    height: 1400px;
+  }
+
+  .contact{
+    justify-content:space-evenly;
+  }
+}
+
+@media screen and (max-width: 768px){
   .button {
     text-decoration: none;
     height: 30px;
@@ -650,7 +668,7 @@ textarea::placeholder {
   }
 
   .contact__info__paragraph{
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .contact__info{
@@ -666,6 +684,9 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 530px){
+  body{
+    flex-wrap: wrap;
+  }
   .button {
     text-decoration: none;
     height: 30px;
@@ -708,36 +729,6 @@ textarea::placeholder {
 
  .header{
   position: relative;
- }
-
- .hamburger{
-  position: absolute;
-  cursor: pointer;
-  right: 5%;
-  top: 50%;
-  transform: translate(-5%, -50%);
-  z-index: 2;
- }
-
- .header__links{
-  margin-top: 500px;
-   background-color: #ffffff;
-   width: 80%;
-   height: 100vh;
-   flex-direction: column;
-   clip-path: circle(100px at 90% -10%);
-   -webkit-clip-path: circle(100px at 90% -10%);
-   transition: all 1s ease-out;
- }
-
- .header__links li{
-  visibility: visible;
-  margin: 30px;
- }
-
- .header__links.open{
-  clip-path: circle(1000px at 90% -10%);
-  -webkit-clip-path: circle(1000px at 90% -10%);
  }
 
  .banner__title{
@@ -803,7 +794,7 @@ textarea::placeholder {
   }
 
   .contact__info__paragraph{
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .contact__info{
@@ -829,6 +820,72 @@ textarea::placeholder {
 
   .footer__link__lists a{
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .banner__sub-title{
+    font-size: 25px;
+  }
+
+  .about__paragraph, .service__paragraph, .blog__paragraph{
+    font-size: 20px;
+  }
+
+  .blog__paragraph{
+    text-align: start;
+  }
+  
+  .blog{
+    height: 2500px;
+  }
+
+  .blog__gallery{
+    margin-right: 0px;
+  }
+
+  .blog__article{
+    font-size: 18px;
+  }
+
+  .contact{
+    height: 1350px;
+    padding: 100px;
+  }
+
+  .submit--button{
+    margin: 0px auto;
+  }
+
+  .address, .email, .telephone{
+    font-size: 20px
+  }
+
+  .footer__link__lists{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .blog{
+    height: 3000px;
+  }
+
+  .blog__gallery:last-child{
+    margin-left: 0px;
+  }
+
+  .blog__article{
+    font-size: 20px;
+  }
+
+  .contact{
+    height: 1600px;
+    padding: 100px;
+  }
+
+  .submit--button{
+    margin: 0px auto;
   }
 }
 
