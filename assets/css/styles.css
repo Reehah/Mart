@@ -554,7 +554,7 @@ textarea::placeholder {
  }
 
  .header__links{
-  margin-top: 560px;
+  margin-top: 500px;
    background-color: #ffffff;
    width: 80%;
    height: 100vh;
@@ -825,9 +825,13 @@ textarea::placeholder {
 
 @media screen and (max-width: 375px){
   #page{
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .header__links{
+    margin-top: 560px;
   }
   
   .banner__sub-title{
@@ -838,12 +842,21 @@ textarea::placeholder {
     font-size: 20px;
   }
 
+  .our__service{
+    height: 1100px;
+  }
+
+  .service__paragraph{
+    margin-top: 70px;
+  }
+
   .blog__paragraph{
     text-align: start;
   }
   
   .blog{
     height: 2500px;
+    width: 120%
   }
 
   .blog__gallery{
@@ -852,17 +865,32 @@ textarea::placeholder {
 
   .blog__article{
     font-size: 18px;
+    width: 100%
+
   }
 
   .contact{
-    height: 1350px;
+    height: 1300px;
     padding: 100px;
   }
 
-  .submit--button{
+  .contact__form {
+    width: 200%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__info{
+    width: 200%;
+  }
+  .submit--button button{
     margin: 0px auto;
   }
 
+  .text_box, textarea{
+    border-radius: 10px
+  }
   .address, .email, .telephone{
     font-size: 20px
   }
