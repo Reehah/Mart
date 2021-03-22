@@ -554,7 +554,7 @@ textarea::placeholder {
  }
 
  .header__links{
-  margin-top: 500px;
+  margin-top: 560px;
    background-color: #ffffff;
    width: 80%;
    height: 100vh;
@@ -824,6 +824,12 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 375px){
+  #page{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
   .banner__sub-title{
     font-size: 25px;
   }
