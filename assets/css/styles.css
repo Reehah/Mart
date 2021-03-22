@@ -844,10 +844,11 @@ textarea::placeholder {
 
   .our__service{
     height: 1100px;
+    margin-top: 70px;
   }
 
   .service__paragraph{
-    margin-top: 70px;
+    margin-top: 30px;
   }
 
   .blog__paragraph{
@@ -855,7 +856,7 @@ textarea::placeholder {
   }
   
   .blog{
-    height: 2500px;
+    height: 2150px;
     width: 120%
   }
 
@@ -870,7 +871,7 @@ textarea::placeholder {
   }
 
   .contact{
-    height: 1300px;
+    height: 1350px;
     padding: 100px;
   }
 
